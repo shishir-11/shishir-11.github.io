@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Homepage on Shishir-GSoC-Blogs</title>
     <link>https://shishir-11.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content in Homepage on Shishir-GSoC-Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shishir-11.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Summer of Code 2024</title>
+      <link>https://shishir-11.github.io/articles/article-1/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://shishir-11.github.io/articles/article-1/</guid>
+      <description>What is Google Summer of Code (GSoC) ? Google Summer of Code is an international program that seeks to bring in new contributors to the Open-Source Community by promoting their projects and providing stipends to the selected contributors.&#xA;Many contributors begin contributing via code and documentation improvements before submitting their proposals which upholds the true spirit of the open-source community and also help the contributor familiarise themself with the trends and practices followed .</description>
+    </item>
   </channel>
 </rss>
