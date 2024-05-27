@@ -6,8 +6,15 @@
     <description>Recent content in Articles on Shishir-GSoC-Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shishir-11.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSoC Community Bonding Period Ends</title>
+      <link>https://shishir-11.github.io/articles/article-2/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://shishir-11.github.io/articles/article-2/</guid>
+      <description>What is the community bonding period? The GSoC Bonding Period allows us to setup the project, interact with the community , get familiar with the documentation, or as I would like to put it, getting prepared for the coding period so you can start coding effectively.&#xA;Multiple interaction and QnA sessions were taken by Gooogle which to familiarise us with the entire process and also helped me get a new perspective on security, AI and inclusivity.</description>
+    </item>
     <item>
       <title>Google Summer of Code 2024</title>
       <link>https://shishir-11.github.io/articles/article-1/</link>
