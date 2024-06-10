@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,14 +12,14 @@
   </title>
 
   <meta name="description" content="What is Google Summer of Code (GSoC) ? Google Summer of Code is an international program that seeks to bring in new contributors to the Open-Source Community by promoting their projects and providing stipends to the selected contributors.
-Many contributors begin contributing via code and documentation improvements before submitting their proposals which upholds the true spirit of the open-source community and also help the contributor familiarise themself with the trends and practices followed ." /><meta name="generator" content="Hugo 0.126.1">
+Many contributors begin contributing via code and documentation improvements before submitting their proposals which upholds the true spirit of the open-source community and also help the contributor familiarise themself with the trends and practices followed ." /><meta name="generator" content="Hugo 0.127.0">
 
-  <link rel="stylesheet" href="https://shishir-11.github.io/css/main.css" />
+  <link rel="stylesheet" href="http://localhost:1313/css/main.css" />
 
   
   
 
-  <meta property="og:url" content="https://shishir-11.github.io/articles/article-1/">
+  <meta property="og:url" content="http://localhost:1313/articles/article-1/">
   <meta property="og:site_name" content="Shishir-GSoC-Blogs">
   <meta property="og:title" content="Google Summer of Code 2024">
   <meta property="og:description" content="What is Google Summer of Code (GSoC) ? Google Summer of Code is an international program that seeks to bring in new contributors to the Open-Source Community by promoting their projects and providing stipends to the selected contributors.
@@ -67,7 +67,7 @@ Many contributors begin contributing via code and documentation improvements bef
   <line x1="18" y1="6" x2="6" y2="18" />
   <line x1="6" y1="6" x2="18" y2="18" />
 </svg></button>
-    <a href="https://shishir-11.github.io/" class="px-2">
+    <a href="http://localhost:1313/" class="px-2">
       <span>Shishir-GSoC-Blogs</span>
     </a>
     <button aria-label="Toggle dark mode"
@@ -203,9 +203,34 @@ Many contributors begin contributing via code and documentation improvements bef
   lg:translate-x-0 lg:basis-[400px] h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
     
     
-    <a href="https://shishir-11.github.io/articles/">
+    <a href="http://localhost:1313/articles/">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
     </a><div class="space-y-2.5">
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/article-4/">
+        
+        
+        <h3 class="text-lg font-semibold mb-0.5">GSOC Week 2</h3>
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
+          As mentioned in the previous blog, this week was focussed on implementation of equations to get the desired shape of the cable and plot it along with getting the forces plotted.
+Plotting the Cable We have two types of loads and depending on them , can form the equation of the cable shape
+Point Loads: The user defined the x and y ccoordinates of the load and it is easy to simply use a line equation and make a piecewise function Uniformly distributed Loads: It takes up a parabolic shape under horizontal uniformly distributed loads whose equation could easily be found using the sympy solver For plotting I am using the plotting library already present in sympy which eases the work a lot.
+        </div>
+      </a>
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/article-3/">
+        
+        
+        <h3 class="text-lg font-semibold mb-0.5">GSOC Week 1</h3>
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
+          Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.
+After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.
+        </div>
+      </a>
       
       <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles/article-2/">

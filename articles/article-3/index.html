@@ -8,35 +8,51 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-    Articles - Shishir-GSoC-Blogs
+    GSOC Week 1 - Shishir-GSoC-Blogs
   </title>
 
-  <meta name="description" content="" /><meta name="generator" content="Hugo 0.127.0">
+  <meta name="description" content="Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.
+After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility." /><meta name="generator" content="Hugo 0.127.0">
 
   <link rel="stylesheet" href="http://localhost:1313/css/main.css" />
 
   
   
 
-  <meta property="og:url" content="http://localhost:1313/articles/">
+  <meta property="og:url" content="http://localhost:1313/articles/article-3/">
   <meta property="og:site_name" content="Shishir-GSoC-Blogs">
-  <meta property="og:title" content="Articles">
+  <meta property="og:title" content="GSOC Week 1">
+  <meta property="og:description" content="Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.
+After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="articles">
+    <meta property="article:published_time" content="2024-06-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-03T00:00:00+00:00">
 
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Articles">
+  <meta name="twitter:title" content="GSOC Week 1">
+  <meta name="twitter:description" content="Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.
+After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.">
 
 
   
-  <meta itemprop="name" content="Articles">
-  <meta itemprop="dateModified" content="2024-06-10T00:00:00+00:00">
+  <meta itemprop="name" content="GSOC Week 1">
+  <meta itemprop="description" content="Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.
+After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.">
+  <meta itemprop="datePublished" content="2024-06-03T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-06-03T00:00:00+00:00">
+  <meta itemprop="wordCount" content="123">
 
   
-  <meta itemprop="name" content="Articles">
-  <meta itemprop="dateModified" content="2024-06-10T00:00:00+00:00">
+  <meta itemprop="name" content="GSOC Week 1">
+  <meta itemprop="description" content="Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.
+After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.">
+  <meta itemprop="datePublished" content="2024-06-03T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-06-03T00:00:00+00:00">
+  <meta itemprop="wordCount" content="123">
 </head><body class="flex relative h-full min-h-screen"><aside
   class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:basis-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar flex-shrink-0">
   <p class="font-bold mb-5 flex items-center gap-2">
@@ -79,7 +95,7 @@
     </li>
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles" >
         <span>Articles</span>
         
@@ -172,62 +188,98 @@
 </svg></button>
 
 
+
+
+
+
 <div class="flex flex-1 h-screen relative w-full min-w-0">
 
   <section
-    class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
+    class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative
+  lg:translate-x-0 lg:basis-[400px] h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
+    
+    
     <a href="http://localhost:1313/articles/">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
     </a><div class="space-y-2.5">
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/article-4/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/article-4/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">GSOC Week 2</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           As mentioned in the previous blog, this week was focussed on implementation of equations to get the desired shape of the cable and plot it along with getting the forces plotted.
 Plotting the Cable We have two types of loads and depending on them , can form the equation of the cable shape
 Point Loads: The user defined the x and y ccoordinates of the load and it is easy to simply use a line equation and make a piecewise function Uniformly distributed Loads: It takes up a parabolic shape under horizontal uniformly distributed loads whose equation could easily be found using the sympy solver For plotting I am using the plotting library already present in sympy which eases the work a lot.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/article-3/">
-
+      
+      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
+        href="/articles/article-3/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">GSOC Week 1</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-400  line-clamp-2">
           Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.
 After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/article-2/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/article-2/">
         
         
         <h3 class="text-lg font-semibold mb-0.5">GSoC Community Bonding Period Ends</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           What is the community bonding period? The GSoC Bonding Period allows us to setup the project, interact with the community , get familiar with the documentation, or as I would like to put it, getting prepared for the coding period so you can start coding effectively.
 Multiple interaction and QnA sessions were taken by Gooogle which to familiarise us with the entire process and also helped me get a new perspective on security, AI and inclusivity.
         </div>
       </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/article-1/">
-
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/article-1/">
         
         
         <img class="rounded max-w-full mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvZOzRtgNu56-20vq1J_Nc5dt1ICeAmazo0SBUaaOj&amp;s" alt="Google Summer of Code 2024" />
         
         <h3 class="text-lg font-semibold mb-0.5">Google Summer of Code 2024</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           What is Google Summer of Code (GSoC) ? Google Summer of Code is an international program that seeks to bring in new contributors to the Open-Source Community by promoting their projects and providing stipends to the selected contributors.
 Many contributors begin contributing via code and documentation improvements before submitting their proposals which upholds the true spirit of the open-source community and also help the contributor familiarise themself with the trends and practices followed .
         </div>
       </a>
       </div>
-  </section>
+    </section>
 
-  <main class="hidden md:grid h-screen place-items-center flex-1">
-    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
-  </main>
+  <div class="overflow-y-auto h-screen w-full">
+    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
+
+      
+      <h1 class="!mb-2">GSOC Week 1</h1>
+
+	  
+      <p class="text-sm text-slate-500 !mb-8"> Planted June 3, 2024
+		
+	  </p>
+      
+
+      
+
+      <h2 id="small-account-of-what-was-done">Small account of what was done</h2>
+<p>The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the <code>continuum_mechanics</code> module and making some changes to pass precision tests.</p>
+<p>After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.</p>
+<h2 id="target-for-upcoming-week">Target for upcoming week</h2>
+<p>Start plotting the shape of the cable along with the force representations for distributed and point loads.</p>
+<h3 id="problems">Problems</h3>
+<p>VSCode ended up messing with the anaconda environment which ended up taking more time to figure out than the actual code part.</p>
+
+    </article>
+  </div>
 
 </div>
 
