@@ -6,8 +6,15 @@
     <description>Recent content in Homepage on Shishir-GSoC-Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSOC Week 3</title>
+      <link>http://localhost:1313/articles/article-5/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/article-5/</guid>
+      <description>Stuff Completed Draw Method for Cable Class Tension Plot for Cable Class Improvements in solver for Cable class Results Draw Method now allows us to visualize the cable shape and loads in a more intuitive way. Style of load for distributed loads was changed to ensure easier reading and better plots.&#xA;Draw Method plots:- Tension Plots:- This week was focussed on finishing he work on the draw method and tension plot which ended up taking more time than what I had initially hoped for.</description>
+    </item>
     <item>
       <title>GSOC Week 2</title>
       <link>http://localhost:1313/articles/article-4/</link>
