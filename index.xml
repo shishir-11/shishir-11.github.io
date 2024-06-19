@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Shishir-GSoC-Blogs</title>
-    <link>http://localhost:1313/</link>
+    <link>https://shishir-11.github.io/</link>
     <description>Recent content in Homepage on Shishir-GSoC-Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shishir-11.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GSOC Week 3</title>
-      <link>http://localhost:1313/articles/article-5/</link>
+      <link>https://shishir-11.github.io/articles/article-5/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-5/</guid>
+      <guid>https://shishir-11.github.io/articles/article-5/</guid>
       <description>Stuff Completed Draw Method for Cable Class Tension Plot for Cable Class Improvements in solver for Cable class Results Draw Method now allows us to visualize the cable shape and loads in a more intuitive way. Style of load for distributed loads was changed to ensure easier reading and better plots.&#xA;Draw Method plots:- Tension Plots:- This week was focussed on finishing he work on the draw method and tension plot which ended up taking more time than what I had initially hoped for.</description>
     </item>
     <item>
       <title>GSOC Week 2</title>
-      <link>http://localhost:1313/articles/article-4/</link>
+      <link>https://shishir-11.github.io/articles/article-4/</link>
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-4/</guid>
+      <guid>https://shishir-11.github.io/articles/article-4/</guid>
       <description>As mentioned in the previous blog, this week was focussed on implementation of equations to get the desired shape of the cable and plot it along with getting the forces plotted.&#xA;Plotting the Cable We have two types of loads and depending on them , can form the equation of the cable shape&#xA;Point Loads: The user defined the x and y ccoordinates of the load and it is easy to simply use a line equation and make a piecewise function Uniformly distributed Loads: It takes up a parabolic shape under horizontal uniformly distributed loads whose equation could easily be found using the sympy solver For plotting I am using the plotting library already present in sympy which eases the work a lot.</description>
     </item>
     <item>
       <title>GSOC Week 1</title>
-      <link>http://localhost:1313/articles/article-3/</link>
+      <link>https://shishir-11.github.io/articles/article-3/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-3/</guid>
+      <guid>https://shishir-11.github.io/articles/article-3/</guid>
       <description>Small account of what was done The first week of GSoC started with closing an older pull request with some discussions on further improvements and changes to the existing Cable Class in the continuum_mechanics module and making some changes to pass precision tests.&#xA;After this the work on the draw method was initialised. As a first step I decided to start plotting both the support. I decided to keep both the supports shape as a rectangle for better visibility.</description>
     </item>
     <item>
       <title>GSoC Community Bonding Period Ends</title>
-      <link>http://localhost:1313/articles/article-2/</link>
+      <link>https://shishir-11.github.io/articles/article-2/</link>
       <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-2/</guid>
+      <guid>https://shishir-11.github.io/articles/article-2/</guid>
       <description>What is the community bonding period? The GSoC Bonding Period allows us to setup the project, interact with the community , get familiar with the documentation, or as I would like to put it, getting prepared for the coding period so you can start coding effectively.&#xA;Multiple interaction and QnA sessions were taken by Gooogle which to familiarise us with the entire process and also helped me get a new perspective on security, AI and inclusivity.</description>
     </item>
     <item>
       <title>Google Summer of Code 2024</title>
-      <link>http://localhost:1313/articles/article-1/</link>
+      <link>https://shishir-11.github.io/articles/article-1/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/article-1/</guid>
+      <guid>https://shishir-11.github.io/articles/article-1/</guid>
       <description>What is Google Summer of Code (GSoC) ? Google Summer of Code is an international program that seeks to bring in new contributors to the Open-Source Community by promoting their projects and providing stipends to the selected contributors.&#xA;Many contributors begin contributing via code and documentation improvements before submitting their proposals which upholds the true spirit of the open-source community and also help the contributor familiarise themself with the trends and practices followed .</description>
     </item>
   </channel>
