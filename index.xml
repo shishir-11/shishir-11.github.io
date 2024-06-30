@@ -6,8 +6,15 @@
     <description>Recent content in Homepage on Shishir-GSoC-Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shishir-11.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSOC Week 4</title>
+      <link>https://shishir-11.github.io/articles/article-6/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://shishir-11.github.io/articles/article-6/</guid>
+      <description>This week started the Phase-2 of my project and focussed on initialising the Arches class and implementing the supporting methods that would help in implementation of the later methods and solver.&#xA;Properties available now :-&#xA;get_parabola_eqn :- returns the equation of the shape of the arch supports:- returns support type get_loads:- returns the loads left_support and right_support :- return the position of the corresponding supports reaction_force:- returns the reaction forces generated at the supports Some Methods that include apply_load, remove_load, add_support, add_roap have also been added which may be modified later according to the need.</description>
+    </item>
     <item>
       <title>GSOC Week 3</title>
       <link>https://shishir-11.github.io/articles/article-5/</link>

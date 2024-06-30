@@ -19,8 +19,7 @@
   var scrollElement = document.querySelector(".scroll-area");
   var scrollElementStateKey = "ScrollElementPosition";
   window.onbeforeunload = function() {
-    if (!scrollElement)
-      return;
+    if (!scrollElement) return;
     const scrollPos = scrollElement.scrollTop;
     if (scrollPos) {
       localStorage.setItem(scrollElementStateKey, scrollPos);
