@@ -13,7 +13,7 @@
 
   <meta name="description" content="As mentioned in the previous blog, this week was focussed on implementation of equations to get the desired shape of the cable and plot it along with getting the forces plotted.
 Plotting the Cable We have two types of loads and depending on them , can form the equation of the cable shape
-Point Loads: The user defined the x and y ccoordinates of the load and it is easy to simply use a line equation and make a piecewise function Uniformly distributed Loads: It takes up a parabolic shape under horizontal uniformly distributed loads whose equation could easily be found using the sympy solver For plotting I am using the plotting library already present in sympy which eases the work a lot." /><meta name="generator" content="Hugo 0.128.0">
+Point Loads: The user defined the x and y ccoordinates of the load and it is easy to simply use a line equation and make a piecewise function Uniformly distributed Loads: It takes up a parabolic shape under horizontal uniformly distributed loads whose equation could easily be found using the sympy solver For plotting I am using the plotting library already present in sympy which eases the work a lot." /><meta name="generator" content="Hugo 0.128.2">
 
   <link rel="stylesheet" href="https://shishir-11.github.io/css/main.css" />
 
@@ -207,6 +207,19 @@ Point Loads: The user defined the x and y ccoordinates of the load and it is eas
     <a href="https://shishir-11.github.io/articles/">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
     </a><div class="space-y-2.5">
+      
+      <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
+        href="/articles/article-7/">
+        
+        
+        <h3 class="text-lg font-semibold mb-0.5">GSOC Week 5</h3>
+        <div
+          class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
+          simplify method helped me resolve a test case that was leading to failed tests and PR being unable to merged which was advised by my mentors.
+PR regarding the initialisation of the Arch class was merged and work on the solver was started.
+Some further study was required to develop the solver which consumed some extra time this week , currently the solver is capable of finding the reaction forces generated at supports if the supports are hinged.
+        </div>
+      </a>
       
       <a class="article block px-3 py-4  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles/article-6/">

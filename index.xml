@@ -6,8 +6,15 @@
     <description>Recent content in Homepage on Shishir-GSoC-Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shishir-11.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSOC Week 5</title>
+      <link>https://shishir-11.github.io/articles/article-7/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://shishir-11.github.io/articles/article-7/</guid>
+      <description>simplify method helped me resolve a test case that was leading to failed tests and PR being unable to merged which was advised by my mentors.&#xA;PR regarding the initialisation of the Arch class was merged and work on the solver was started.&#xA;Some further study was required to develop the solver which consumed some extra time this week , currently the solver is capable of finding the reaction forces generated at supports if the supports are hinged.</description>
+    </item>
     <item>
       <title>GSOC Week 4</title>
       <link>https://shishir-11.github.io/articles/article-6/</link>
